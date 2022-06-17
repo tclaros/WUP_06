@@ -29,11 +29,16 @@ mydata <- na.omit(mydata)
 
 Is attitude toward capitol punishment (cappun) independent of race (race)?
 If not, then whose view differs from whom??
-
+  
+$H_0$: Attitude towards capital punishment is not related on race  
+$H_A$: Attitude towards capital punishment is dependent on race  
+  
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
-
+  
+Both race and cappun are categorical variables so the analysis technique is CAT~CAT; plot is a barplot, summary is a cross-table, and the inference is chi-squared test.  
+  
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
